@@ -153,6 +153,7 @@ void LineEdit::_gui_input(Ref<InputEvent> p_event) {
 
 	if (k.is_valid()) {
 		if (!k->is_pressed()) {
+			accept_event();
 			return;
 		}
 

@@ -2371,6 +2371,7 @@ void TextEdit::_gui_input(const Ref<InputEvent> &p_gui_input) {
 		}
 
 		if (!k->is_pressed()) {
+			accept_event();
 			return;
 		}
 
